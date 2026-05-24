@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="create_icon_246449.png" />
+    <None Remove="istockphoto-1044631662-612x612.jpg" />
+    <None Remove="save-icon-sm.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="Microsoft.Vbe.Interop.Forms">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>2</VersionMajor>
+      <Guid>0d452ee1-e08f-101a-852e-02608c4d0bb4</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="create_icon_246449.png" />
+    <Resource Include="istockphoto-1044631662-612x612.jpg" />
+    <Resource Include="save-icon-sm.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,150 @@
+﻿<Window x:Class="LabWork34.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="Текстовый редактор" Height="500" Width="700"
+        WindowStartupLocation="CenterScreen">
+    <Window.CommandBindings>
+        <CommandBinding Command="Save" Executed="SaveCommand" CanExecute="CanSaveCommand"/>
+    </Window.CommandBindings>
+
+    <DockPanel>
+        <!-- Меню -->
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Файл">
+                <MenuItem Header="Создать" Click="NewFile_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/create_icon_246449.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Открыть" Click="OpenFile_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/istockphoto-1044631662-612x612.jpg"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Сохранить" Command="Save">
+                    <MenuItem.Icon>
+                        <Image Source="/save-icon-sm.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator/>
+                <MenuItem Header="Печать"/>
+                <Separator/>
+                <MenuItem Header="Выход" Click="Exit_Click"/>
+            </MenuItem>
+            <MenuItem Header="Вид">
+                <MenuItem Header="Строка состояния" IsCheckable="True" IsChecked="True" Click="ToggleStatusBar_Click"/>
+                <MenuItem Header="Масштаб">
+                    <MenuItem Header="Увеличить" Click="ZoomIn_Click"/>
+                    <MenuItem Header="Уменьшить" Click="ZoomOut_Click"/>
+                    <MenuItem Header="Обычный" Click="ZoomReset_Click"/>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Справка">
+                <MenuItem Header="О программе" Click="About_Click"/>
+            </MenuItem>
+        </Menu>
+
+        <!-- Панель инструментов -->
+        <ToolBar DockPanel.Dock="Top">
+            <ComboBox Name="FontSizeCombo" Width="60" IsEditable="True" SelectionChanged="FontSize_Changed">
+                <ComboBoxItem>10</ComboBoxItem>
+                <ComboBoxItem>12</ComboBoxItem>
+                <ComboBoxItem>14</ComboBoxItem>
+                <ComboBoxItem>16</ComboBoxItem>
+                <ComboBoxItem>18</ComboBoxItem>
+            </ComboBox>
+            <Separator/>
+            <ToggleButton Name="BoldButton" ToolTip="Полужирный" Click="Bold_Click">
+                <TextBlock FontWeight="Bold">Ж</TextBlock>
+            </ToggleButton>
+            <ToggleButton Name="ItalicButton" ToolTip="Курсив" Click="Italic_Click">
+                <TextBlock FontStyle="Italic">К</TextBlock>
+            </ToggleButton>
+            <ToggleButton Name="UnderlineButton" ToolTip="Подчеркнутый" Click="Underline_Click">
+                <TextBlock TextDecorations="Underline">Ч</TextBlock>
+            </ToggleButton>
+            <Separator/>
+            <RadioButton Name="AlignLeft" ToolTip="По левому краю" GroupName="Align" Click="Align_Left">Лев</RadioButton>
+            <RadioButton Name="AlignCenter" ToolTip="По центру" GroupName="Align" Click="Align_Center">Центр</RadioButton>
+            <RadioButton Name="AlignRight" ToolTip="По правому краю" GroupName="Align" Click="Align_Right">Прав</RadioButton>
+            <RadioButton Name="AlignJustify" ToolTip="По ширине" GroupName="Align" Click="Align_Justify">Шир</RadioButton>
+            <Separator/>
+            <Button Name="ColorButton" ToolTip="Цвет текста" Click="Color_Click"/>
+        </ToolBar>
+
+        <!-- Гамбургер-меню слева -->
+        <DockPanel DockPanel.Dock="Left" Name="HamburgerPanel" Width="150">
+            <ToggleButton Name="HamburgerButton" DockPanel.Dock="Top" HorizontalAlignment="Left" Click="Hamburger_Click" FontSize="20">☰</ToggleButton>
+            <StackPanel Name="SideButtonsPanel">
+                <Button Click="NewFile_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/create_icon_246449.png" Width="20" Height="20"/>
+                        <TextBlock Name="NewLabel" Text="Создать"/>
+                    </StackPanel>
+                </Button>
+                <Button Click="OpenFile_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/istockphoto-1044631662-612x612.jpg" Width="20" Height="20"/>
+                        <TextBlock Name="OpenLabel" Text="Открыть"/>
+                    </StackPanel>
+                </Button>
+                <Button Click="SaveCommand">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/save-icon-sm.png" Width="20" Height="20"/>
+                        <TextBlock Name="SaveLabel" Text="Сохранить"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+        </DockPanel>
+
+        <!-- Строка состояния -->
+        <StackPanel DockPanel.Dock="Bottom">
+            <StatusBar DockPanel.Dock="Bottom" Name="StatusBarPanel">
+                <StatusBarItem>
+                    <TextBlock Name="CharCountText" Text="Символов: 0"/>
+                </StatusBarItem>
+                <StatusBarItem HorizontalAlignment="Right">
+                    <StackPanel Orientation="Horizontal">
+                        <Button Name="ZoomMinus" Content="-" Width="25" Click="ZoomOut_Click"/>
+                        <Slider Name="ZoomSlider" 
+                            Minimum="8" Maximum="40" 
+                            Value="12" 
+                            Width="100" 
+                            VerticalAlignment="Center"
+                            Margin="5,0"
+                            ValueChanged="ZoomSlider_ValueChanged"/>
+                        <TextBlock Name="ZoomPercent" Text="100%" Width="40" TextAlignment="Center"/>
+                        <Button Name="ZoomPlus" Content="+" Width="25" Click="ZoomIn_Click"/>
+                    </StackPanel>
+                </StatusBarItem>
+                <StatusBarItem HorizontalAlignment="Right">
+                    <TextBlock Name="CurrentDateText" Text="{Binding Source={x:Static sys:DateTime.Now}, StringFormat='dd.MM.yyyy'}"/>
+                </StatusBarItem>
+            </StatusBar>
+        </StackPanel>
+        
+        <!-- Текстовое поле -->
+        <TextBox Name="MainTextBox" 
+          AcceptsReturn="True" 
+          TextWrapping="Wrap" 
+          VerticalScrollBarVisibility="Auto" 
+          HorizontalScrollBarVisibility="Auto"
+          TextChanged="MainTextBox_TextChanged"
+          FontSize="12"
+          Width="300"
+          AcceptsTab="True">
+            
+            <TextBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Очистить" Click="ContextClear_Click"/>
+                    <Separator/>
+                    <MenuItem Header="Открыть" Click="OpenFile_Click"/>
+                    <MenuItem Header="Сохранить" Click="ContextSave_Click"/>
+                    <Separator/>
+                    <MenuItem Header="Выход" Click="ContextExit_Click"/>
+                </ContextMenu>
+            </TextBox.ContextMenu>
+        </TextBox>
+    </DockPanel>
+</Window>
