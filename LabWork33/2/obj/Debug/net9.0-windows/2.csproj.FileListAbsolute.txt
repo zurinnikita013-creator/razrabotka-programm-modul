@@ -1,0 +1,5 @@
+C:\Users\sa\source\repos\LabWork33\2\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\sa\source\repos\LabWork33\2\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\sa\source\repos\LabWork33\2\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\sa\source\repos\LabWork33\2\obj\Debug\net9.0-windows\2_MarkupCompile.cache
+C:\Users\sa\source\repos\LabWork33\2\obj\Debug\net9.0-windows\2_MarkupCompile.lref

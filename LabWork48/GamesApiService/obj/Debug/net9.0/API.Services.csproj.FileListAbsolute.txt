@@ -1,0 +1,11 @@
+C:\Users\sa\source\repos\LabWork48\GamesApiService\bin\Debug\net9.0\API.Services.deps.json
+C:\Users\sa\source\repos\LabWork48\GamesApiService\bin\Debug\net9.0\API.Services.dll
+C:\Users\sa\source\repos\LabWork48\GamesApiService\bin\Debug\net9.0\API.Services.pdb
+C:\Users\sa\source\repos\LabWork48\GamesApiService\obj\Debug\net9.0\API.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sa\source\repos\LabWork48\GamesApiService\obj\Debug\net9.0\API.Services.AssemblyInfoInputs.cache
+C:\Users\sa\source\repos\LabWork48\GamesApiService\obj\Debug\net9.0\API.Services.AssemblyInfo.cs
+C:\Users\sa\source\repos\LabWork48\GamesApiService\obj\Debug\net9.0\API.Services.csproj.CoreCompileInputs.cache
+C:\Users\sa\source\repos\LabWork48\GamesApiService\obj\Debug\net9.0\API.Services.dll
+C:\Users\sa\source\repos\LabWork48\GamesApiService\obj\Debug\net9.0\refint\API.Services.dll
+C:\Users\sa\source\repos\LabWork48\GamesApiService\obj\Debug\net9.0\API.Services.pdb
+C:\Users\sa\source\repos\LabWork48\GamesApiService\obj\Debug\net9.0\ref\API.Services.dll

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ConsoleClient/ConsoleClient.csproj" />
+  <Project Path="GamesApiService/API.Services.csproj" />
+</Solution>

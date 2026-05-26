@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sa\\source\\repos\\LabWork48\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2382FB-B796-4F4E-8F61-4D76FCF92247}|ConsoleClient\\ConsoleClient.csproj|c:\\users\\sa\\source\\repos\\labwork48\\consoleclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2382FB-B796-4F4E-8F61-4D76FCF92247}|ConsoleClient\\ConsoleClient.csproj|solutionrelative:consoleclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AB6C3F5-B3BD-4880-8EA5-066ED0CA5AB0}|GamesApiService\\API.Services.csproj|c:\\users\\sa\\source\\repos\\labwork48\\gamesapiservice\\gamesapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AB6C3F5-B3BD-4880-8EA5-066ED0CA5AB0}|GamesApiService\\API.Services.csproj|solutionrelative:gamesapiservice\\gamesapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sa\\source\\repos\\LabWork48\\ConsoleClient\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleClient\\Program.cs",
+              "ToolTip": "C:\\Users\\sa\\source\\repos\\LabWork48\\ConsoleClient\\Program.cs",
+              "RelativeToolTip": "ConsoleClient\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T18:22:43.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GamesApiService.cs",
+              "DocumentMoniker": "C:\\Users\\sa\\source\\repos\\LabWork48\\GamesApiService\\GamesApiService.cs",
+              "RelativeDocumentMoniker": "GamesApiService\\GamesApiService.cs",
+              "ToolTip": "C:\\Users\\sa\\source\\repos\\LabWork48\\GamesApiService\\GamesApiService.cs",
+              "RelativeToolTip": "GamesApiService\\GamesApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T18:21:23.49Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

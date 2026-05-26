@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DatabaseLibrary/DatabaseLibrary.csproj" />
+  <Project Path="WinFormsApp1/WinFormsApp1.csproj" />
+</Solution>

@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sa\\source\\repos\\LabWork33\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3C9932-C4ED-43BA-88FB-E8E820650E1A}|UserDataGridApp\\UserDataGridApp.csproj|c:\\users\\sa\\source\\repos\\labwork33\\userdatagridapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E3C9932-C4ED-43BA-88FB-E8E820650E1A}|UserDataGridApp\\UserDataGridApp.csproj|solutionrelative:userdatagridapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3C9932-C4ED-43BA-88FB-E8E820650E1A}|UserDataGridApp\\UserDataGridApp.csproj|c:\\users\\sa\\source\\repos\\labwork33\\userdatagridapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3C9932-C4ED-43BA-88FB-E8E820650E1A}|UserDataGridApp\\UserDataGridApp.csproj|solutionrelative:userdatagridapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3C9932-C4ED-43BA-88FB-E8E820650E1A}|UserDataGridApp\\UserDataGridApp.csproj|c:\\users\\sa\\source\\repos\\labwork33\\userdatagridapp\\categorylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3C9932-C4ED-43BA-88FB-E8E820650E1A}|UserDataGridApp\\UserDataGridApp.csproj|solutionrelative:userdatagridapp\\categorylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3C9932-C4ED-43BA-88FB-E8E820650E1A}|UserDataGridApp\\UserDataGridApp.csproj|c:\\users\\sa\\source\\repos\\labwork33\\userdatagridapp\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3C9932-C4ED-43BA-88FB-E8E820650E1A}|UserDataGridApp\\UserDataGridApp.csproj|solutionrelative:userdatagridapp\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryList.cs",
+              "DocumentMoniker": "C:\\Users\\sa\\source\\repos\\LabWork33\\UserDataGridApp\\CategoryList.cs",
+              "RelativeDocumentMoniker": "UserDataGridApp\\CategoryList.cs",
+              "ToolTip": "C:\\Users\\sa\\source\\repos\\LabWork33\\UserDataGridApp\\CategoryList.cs",
+              "RelativeToolTip": "UserDataGridApp\\CategoryList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T19:13:08.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\sa\\source\\repos\\LabWork33\\UserDataGridApp\\User.cs",
+              "RelativeDocumentMoniker": "UserDataGridApp\\User.cs",
+              "ToolTip": "C:\\Users\\sa\\source\\repos\\LabWork33\\UserDataGridApp\\User.cs",
+              "RelativeToolTip": "UserDataGridApp\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T19:12:40.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sa\\source\\repos\\LabWork33\\UserDataGridApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "UserDataGridApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\sa\\source\\repos\\LabWork33\\UserDataGridApp\\MainWindow.xaml",
+              "RelativeToolTip": "UserDataGridApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-26T19:12:21.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sa\\source\\repos\\LabWork33\\UserDataGridApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UserDataGridApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sa\\source\\repos\\LabWork33\\UserDataGridApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "UserDataGridApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T19:12:21.812Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

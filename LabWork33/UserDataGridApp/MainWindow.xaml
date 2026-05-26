@@ -1,0 +1,32 @@
+﻿<Window x:Class="UserDataGridApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:UserDataGridApp"
+        Title="Пользователи" Height="450" Width="700">
+    <Window.Resources>
+        <local:CategoryList x:Key="CategoryList"/>
+    </Window.Resources>
+    <Grid>
+        <DataGrid x:Name="UsersDataGrid" AutoGenerateColumns="False" 
+                  CanUserAddRows="False" CanUserDeleteRows="False"
+                  AlternatingRowBackground="LightGray"
+                  GridLinesVisibility="Horizontal">
+            <DataGrid.Columns>
+                <DataGridHyperlinkColumn Header="Адрес" Binding="{Binding Address}"/>
+                <DataGridTextColumn Header="Логин" Binding="{Binding Login}"/>
+                <DataGridTextColumn Header="Пароль" Binding="{Binding HiddenPassword}" IsReadOnly="True"/>
+                <DataGridCheckBoxColumn Header="Архивный" Binding="{Binding IsArchived}"/>
+                <DataGridTemplateColumn Header="Действие">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Скопировать пароль" Click="CopyPassword_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridComboBoxColumn Header="Категория" 
+                                        SelectedValueBinding="{Binding Category}"
+                                        ItemsSource="{Binding Source={StaticResource CategoryList}}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sa\\source\\repos\\LabWork46\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D21623C6-C7A0-4B56-8156-8F06D2736F89}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\sa\\source\\repos\\labwork46\\winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D21623C6-C7A0-4B56-8156-8F06D2736F89}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D21623C6-C7A0-4B56-8156-8F06D2736F89}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\sa\\source\\repos\\labwork46\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D21623C6-C7A0-4B56-8156-8F06D2736F89}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D21623C6-C7A0-4B56-8156-8F06D2736F89}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\sa\\source\\repos\\labwork46\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D21623C6-C7A0-4B56-8156-8F06D2736F89}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9104D16-3CB6-4D46-9E00-005B685B19DA}|DatabaseLibrary\\DatabaseLibrary.csproj|c:\\users\\sa\\source\\repos\\labwork46\\databaselibrary\\sqlitedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9104D16-3CB6-4D46-9E00-005B685B19DA}|DatabaseLibrary\\DatabaseLibrary.csproj|solutionrelative:databaselibrary\\sqlitedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9104D16-3CB6-4D46-9E00-005B685B19DA}|DatabaseLibrary\\DatabaseLibrary.csproj|c:\\users\\sa\\source\\repos\\labwork46\\databaselibrary\\sqldatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9104D16-3CB6-4D46-9E00-005B685B19DA}|DatabaseLibrary\\DatabaseLibrary.csproj|solutionrelative:databaselibrary\\sqldatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9104D16-3CB6-4D46-9E00-005B685B19DA}|DatabaseLibrary\\DatabaseLibrary.csproj|c:\\users\\sa\\source\\repos\\labwork46\\databaselibrary\\idatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9104D16-3CB6-4D46-9E00-005B685B19DA}|DatabaseLibrary\\DatabaseLibrary.csproj|solutionrelative:databaselibrary\\idatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sa\\source\\repos\\LabWork46\\WinFormsApp1\\Program.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\sa\\source\\repos\\LabWork46\\WinFormsApp1\\Program.cs",
+              "RelativeToolTip": "WinFormsApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T18:08:34.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\sa\\source\\repos\\LabWork46\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\sa\\source\\repos\\LabWork46\\WinFormsApp1\\Form1.cs",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAQwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T17:59:49.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\sa\\source\\repos\\LabWork46\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\sa\\source\\repos\\LabWork46\\WinFormsApp1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T17:59:42.631Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SqliteDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\sa\\source\\repos\\LabWork46\\DatabaseLibrary\\SqliteDatabase.cs",
+              "RelativeDocumentMoniker": "DatabaseLibrary\\SqliteDatabase.cs",
+              "ToolTip": "C:\\Users\\sa\\source\\repos\\LabWork46\\DatabaseLibrary\\SqliteDatabase.cs",
+              "RelativeToolTip": "DatabaseLibrary\\SqliteDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T17:45:40.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SqlDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\sa\\source\\repos\\LabWork46\\DatabaseLibrary\\SqlDatabase.cs",
+              "RelativeDocumentMoniker": "DatabaseLibrary\\SqlDatabase.cs",
+              "ToolTip": "C:\\Users\\sa\\source\\repos\\LabWork46\\DatabaseLibrary\\SqlDatabase.cs",
+              "RelativeToolTip": "DatabaseLibrary\\SqlDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T17:44:12.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\sa\\source\\repos\\LabWork46\\DatabaseLibrary\\IDatabase.cs",
+              "RelativeDocumentMoniker": "DatabaseLibrary\\IDatabase.cs",
+              "ToolTip": "C:\\Users\\sa\\source\\repos\\LabWork46\\DatabaseLibrary\\IDatabase.cs",
+              "RelativeToolTip": "DatabaseLibrary\\IDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T17:41:41.868Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

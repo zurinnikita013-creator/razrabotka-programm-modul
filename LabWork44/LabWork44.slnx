@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ConsoleApp/SqliteApp.csproj" />
+  <Project Path="SQLApp/SQLApp.csproj" />
+</Solution>

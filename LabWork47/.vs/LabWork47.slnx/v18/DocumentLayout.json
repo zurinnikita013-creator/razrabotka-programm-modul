@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sa\\source\\repos\\LabWork47\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E6F25E8-AD44-4ADE-B206-9ADB092B0AFA}|GameClient\\GameClient.csproj|c:\\users\\sa\\source\\repos\\labwork47\\gameclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6F25E8-AD44-4ADE-B206-9ADB092B0AFA}|GameClient\\GameClient.csproj|solutionrelative:gameclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF5E4FB-A4FD-40A4-9A9D-83ED9788AE0C}|DataLayer\\DataLayer.csproj|c:\\users\\sa\\source\\repos\\labwork47\\datalayer\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF5E4FB-A4FD-40A4-9A9D-83ED9788AE0C}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF5E4FB-A4FD-40A4-9A9D-83ED9788AE0C}|DataLayer\\DataLayer.csproj|c:\\users\\sa\\source\\repos\\labwork47\\datalayer\\gamesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF5E4FB-A4FD-40A4-9A9D-83ED9788AE0C}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\gamesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF5E4FB-A4FD-40A4-9A9D-83ED9788AE0C}|DataLayer\\DataLayer.csproj|c:\\users\\sa\\source\\repos\\labwork47\\datalayer\\idbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF5E4FB-A4FD-40A4-9A9D-83ED9788AE0C}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\idbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF5E4FB-A4FD-40A4-9A9D-83ED9788AE0C}|DataLayer\\DataLayer.csproj|c:\\users\\sa\\source\\repos\\labwork47\\datalayer\\sqliteconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF5E4FB-A4FD-40A4-9A9D-83ED9788AE0C}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\sqliteconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF5E4FB-A4FD-40A4-9A9D-83ED9788AE0C}|DataLayer\\DataLayer.csproj|c:\\users\\sa\\source\\repos\\labwork47\\datalayer\\mssqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF5E4FB-A4FD-40A4-9A9D-83ED9788AE0C}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\mssqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sa\\source\\repos\\LabWork47\\GameClient\\Program.cs",
+              "RelativeDocumentMoniker": "GameClient\\Program.cs",
+              "ToolTip": "C:\\Users\\sa\\source\\repos\\LabWork47\\GameClient\\Program.cs",
+              "RelativeToolTip": "GameClient\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T18:34:55.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GamesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sa\\source\\repos\\LabWork47\\DataLayer\\GamesRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\GamesRepository.cs",
+              "ToolTip": "C:\\Users\\sa\\source\\repos\\LabWork47\\DataLayer\\GamesRepository.cs",
+              "RelativeToolTip": "DataLayer\\GamesRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T18:32:51.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\sa\\source\\repos\\LabWork47\\DataLayer\\Game.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Game.cs",
+              "ToolTip": "C:\\Users\\sa\\source\\repos\\LabWork47\\DataLayer\\Game.cs",
+              "RelativeToolTip": "DataLayer\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T18:32:30.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MSSQLConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\sa\\source\\repos\\LabWork47\\DataLayer\\MSSQLConnectionFactory.cs",
+              "RelativeDocumentMoniker": "DataLayer\\MSSQLConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\sa\\source\\repos\\LabWork47\\DataLayer\\MSSQLConnectionFactory.cs",
+              "RelativeToolTip": "DataLayer\\MSSQLConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T18:31:39.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SQLiteConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\sa\\source\\repos\\LabWork47\\DataLayer\\SQLiteConnectionFactory.cs",
+              "RelativeDocumentMoniker": "DataLayer\\SQLiteConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\sa\\source\\repos\\LabWork47\\DataLayer\\SQLiteConnectionFactory.cs",
+              "RelativeToolTip": "DataLayer\\SQLiteConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T18:30:55.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDbConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\sa\\source\\repos\\LabWork47\\DataLayer\\IDbConnectionFactory.cs",
+              "RelativeDocumentMoniker": "DataLayer\\IDbConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\sa\\source\\repos\\LabWork47\\DataLayer\\IDbConnectionFactory.cs",
+              "RelativeToolTip": "DataLayer\\IDbConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T18:29:10.104Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

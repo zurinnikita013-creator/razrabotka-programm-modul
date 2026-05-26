@@ -1,0 +1,28 @@
+﻿<Window x:Class="FileListViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Файлы" Height="450" Width="600">
+    <StackPanel Orientation="">
+        <ListView x:Name="FileListView">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Имя файла" DisplayMemberBinding="{Binding Name}"/>
+                    <GridViewColumn Header="Дата изменения" DisplayMemberBinding="{Binding LastWriteTime}"/>
+                    <GridViewColumn Header="Расширение" DisplayMemberBinding="{Binding Extension}"/>
+                    <GridViewColumn Header="Размер">
+                        <GridViewColumn.DisplayMemberBinding>
+                            <Binding Path="Length" StringFormat="{}{0:0} Б"/>
+                        </GridViewColumn.DisplayMemberBinding>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Действие">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="Подробнее" Click="DetailsButton_Click"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </StackPanel>
+</Window>

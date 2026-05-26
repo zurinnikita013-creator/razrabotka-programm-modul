@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FileListViewer/FileListViewer.csproj" />
+  <Project Path="UserDataGridApp/UserDataGridApp.csproj" />
+</Solution>
